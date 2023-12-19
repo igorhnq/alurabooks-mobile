@@ -1,0 +1,33 @@
+.topic {
+    border-top: 10px solid var(--primary-color);
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 1em 0;
+}
+
+.topic-title {
+    color: var(--primary-color);
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.topic-list {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topic-item {
+    margin: 1.1em 0.5em
+}
+
+
+.topic-item a {
+    color: var(--primary-color);
+    padding: 1em;
+    background-color: var(--highlight-color);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
